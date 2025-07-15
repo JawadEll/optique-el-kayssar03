@@ -1,44 +1,67 @@
+<img src="https://img.icons8.com/ios-filled/100/vision.png" width="60" align="right" />
+
 # 👓 Optique El Kayssar03
 
-Application Laravel pour la gestion d’un cabinet d’optique.  
-Développé avec ❤️ pour simplifier le suivi des patients, des ordonnances, et des produits optiques.
+**Application Laravel** pour la gestion complète d’un **cabinet d’optique** : patients, ordonnances, produits optiques, rendez-vous et plus.
+
+> 📦 Projet développé avec passion dans le cadre d’un projet professionnel en Laravel + SQLite.
+
+---
+
+## 🧭 Sommaire
+
+- [🎯 Objectif](#-objectif)
+- [👥 Utilisateurs](#-utilisateurs)
+- [🧩 Fonctionnalités](#-fonctionnalités)
+- [🛠️ Technologies](#️-technologies)
+- [🚀 Installation](#-installation)
+- [📸 Aperçu visuel](#-aperçu-visuel)
+- [📄 Licence](#-licence)
 
 ---
 
 ## 🎯 Objectif
 
-Ce projet permet de gérer facilement les patients, les ordonnances, les produits optiques (montures, verres, etc.) dans un environnement professionnel et moderne.
+Le but de cette application est de :
+- simplifier le travail d’un opticien,
+- gérer les **fiches patients**, **ordonnances**, **produits**,
+- avoir un **dashboard clair** et suivre les activités du cabinet.
 
 ---
 
-## 👤 Utilisateurs
+## 👥 Utilisateurs
 
-- 🧑‍⚕️ Opticien(ne)
-- 👩‍💼 Assistant(e) / Secrétaire
-- 🧑‍💻 Accès client possible à l’avenir
-
----
-
-## ⚙️ Fonctionnalités principales
-
-- 📁 Gestion des patients
-- 🧾 Ordonnances et corrections ophtalmiques
-- 🕶️ Produits optiques (stock de lunettes, montures, etc.)
-- 📅 Rendez-vous *(optionnel)*
-- 📊 Tableau de bord synthétique
-- 💵 Facturation *(si activée)*
+| Rôle         | Description                             |
+|--------------|-----------------------------------------|
+| 🧑‍⚕️ Opticien  | Gère tout le cabinet (consultations, stock) |
+| 👩‍💼 Secrétaire | Assiste à l’accueil et la gestion       |
+| 🧑‍💻 Client     | *(optionnel)* futur accès externe        |
 
 ---
 
-## 🛠️ Technologies utilisées
+## 🧩 Fonctionnalités
 
-- ⚙️ Laravel (PHP)
-- 🗂️ SQLite
-- 🎨 Blade + Bootstrap
+✅ Fiches patients  
+✅ Gestion des ordonnances  
+✅ Stock de lunettes, montures, verres  
+✅ Dashboard clair (statistiques, état général)  
+✅ Rendez-vous *(optionnel)*  
+✅ Facturation *(si activée)*  
 
 ---
 
-## 🚀 Installation
+## 🛠️ Technologies
+
+| Technologie | Description                  |
+|-------------|------------------------------|
+| Laravel     | Framework PHP MVC principal  |
+| SQLite      | Base de données légère       |
+| Blade       | Moteur de templates Laravel  |
+| Bootstrap   | Interface responsive et simple |
+
+---
+
+## 🚀 Installation rapide
 
 ```bash
 # 1. Cloner le projet
@@ -49,11 +72,11 @@ cd optique-el-kayssar03
 composer install
 npm install && npm run dev
 
-# 3. Configurer l’environnement
+# 3. Configuration environnement
 cp .env.example .env
 php artisan key:generate
 
-# 4. Lancer les migrations (si nécessaire)
+# 4. Migrer la base
 php artisan migrate
 
 # 5. Lancer le serveur

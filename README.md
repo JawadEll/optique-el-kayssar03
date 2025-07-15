@@ -1,104 +1,60 @@
-<!DOCTYPE html>
-<html lang="fr">
-<head>
-  <meta charset="UTF-8">
-  <title>Présentation - Optique El Kayssar03</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-  <style>
-    body {
-      background-color: #f8f9fa;
-      padding-top: 40px;
-      font-family: 'Segoe UI', sans-serif;
-    }
-    .section-title {
-      margin-top: 50px;
-      margin-bottom: 20px;
-    }
-    code {
-      background: #eee;
-      padding: 2px 6px;
-      border-radius: 4px;
-    }
-    .card {
-      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-    }
-    .icon {
-      font-size: 1.4rem;
-      color: #6c63ff;
-      margin-right: 10px;
-    }
-  </style>
-</head>
-<body>
+# 👓 Optique El Kayssar03
 
-<div class="container">
-  <h1 class="text-center mb-4">👓 Optique El Kayssar03</h1>
-  <p class="lead text-center">Application Laravel pour la gestion d’un cabinet d’optique</p>
+Application Laravel pour la gestion d’un cabinet d’optique.  
+Développé avec ❤️ pour simplifier le suivi des patients, des ordonnances, et des produits optiques.
 
-  <hr>
+---
 
-  <div class="section">
-    <h3 class="section-title">🎯 Objectif</h3>
-    <p>Ce projet permet de gérer facilement les patients, les ordonnances, les produits optiques (montures, verres, etc.) dans un environnement professionnel et moderne.</p>
-  </div>
+## 🎯 Objectif
 
-  <div class="section">
-    <h3 class="section-title">👤 Utilisateurs</h3>
-    <ul>
-      <li>🧑‍⚕️ Opticien(ne)</li>
-      <li>👩‍💼 Assistant(e) / Secrétaire</li>
-      <li>🧑‍💻 Accès client possible à l’avenir</li>
-    </ul>
-  </div>
+Ce projet permet de gérer facilement les patients, les ordonnances, les produits optiques (montures, verres, etc.) dans un environnement professionnel et moderne.
 
-  <div class="section">
-    <h3 class="section-title">⚙️ Fonctionnalités principales</h3>
-    <ul>
-      <li>📁 Gestion des patients</li>
-      <li>🧾 Ordonnances et corrections ophtalmiques</li>
-      <li>🕶️ Produits optiques (stock de lunettes, montures, etc.)</li>
-      <li>📅 Rendez-vous *(optionnel)*</li>
-      <li>📊 Tableau de bord synthétique</li>
-      <li>💵 Facturation *(si activée)*</li>
-    </ul>
-  </div>
+---
 
-  <div class="section">
-    <h3 class="section-title">🛠️ Technologies utilisées</h3>
-    <ul>
-      <li>⚙️ Laravel (PHP)</li>
-      <li>🗂️ SQLite</li>
-      <li>🎨 Blade + Bootstrap</li>
-    </ul>
-  </div>
+## 👤 Utilisateurs
 
-  <div class="section">
-    <h3 class="section-title">🚀 Installation</h3>
-    <div class="card p-3">
-      <p><strong>1. Cloner le projet</strong></p>
-      <code>git clone https://github.com/JawadEll/optique-el-kayssar03.git</code><br>
-      <code>cd optique-el-kayssar03</code>
+- 🧑‍⚕️ Opticien(ne)
+- 👩‍💼 Assistant(e) / Secrétaire
+- 🧑‍💻 Accès client possible à l’avenir
 
-      <p class="mt-3"><strong>2. Installer les dépendances</strong></p>
-      <code>composer install</code><br>
-      <code>npm install && npm run dev</code>
+---
 
-      <p class="mt-3"><strong>3. Configurer l’environnement</strong></p>
-      <code>cp .env.example .env</code><br>
-      <code>php artisan key:generate</code>
+## ⚙️ Fonctionnalités principales
 
-      <p class="mt-3"><strong>4. Lancer la migration (si nécessaire)</strong></p>
-      <code>php artisan migrate</code>
+- 📁 Gestion des patients
+- 🧾 Ordonnances et corrections ophtalmiques
+- 🕶️ Produits optiques (stock de lunettes, montures, etc.)
+- 📅 Rendez-vous *(optionnel)*
+- 📊 Tableau de bord synthétique
+- 💵 Facturation *(si activée)*
 
-      <p class="mt-3"><strong>5. Démarrer le serveur</strong></p>
-      <code>php artisan serve</code>
-    </div>
-  </div>
+---
 
-  <div class="text-center mt-5">
-    <p class="text-muted">Développé avec ❤️ pour Optique El Kayssar</p>
-  </div>
-</div>
+## 🛠️ Technologies utilisées
 
-</body>
-</html>
+- ⚙️ Laravel (PHP)
+- 🗂️ SQLite
+- 🎨 Blade + Bootstrap
+
+---
+
+## 🚀 Installation
+
+```bash
+# 1. Cloner le projet
+git clone https://github.com/JawadEll/optique-el-kayssar03.git
+cd optique-el-kayssar03
+
+# 2. Installer les dépendances
+composer install
+npm install && npm run dev
+
+# 3. Configurer l’environnement
+cp .env.example .env
+php artisan key:generate
+
+# 4. Lancer les migrations (si nécessaire)
+php artisan migrate
+
+# 5. Lancer le serveur
+php artisan serve
